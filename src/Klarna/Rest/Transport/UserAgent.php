@@ -41,7 +41,15 @@ class UserAgent implements UserAgentInterface
      *
      * @var array
      */
-    protected $fields = [];
+    protected $fields;
+
+    /**
+     * Constructs a user agent instance.
+     */
+    public function __construct()
+    {
+        $this->fields = [];
+    }
 
     /**
      * Sets the specified field.
