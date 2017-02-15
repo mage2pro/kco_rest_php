@@ -1,6 +1,6 @@
 {
     "name": "mage2pro/klarna-sdk-v3",
-    "version": "v2.2.2",
+    "version": "2.2.3",
     "description": "Klarna Checkout PHP SDK",
     "homepage": "http://developers.klarna.com",
     "license": "Apache-2.0",
