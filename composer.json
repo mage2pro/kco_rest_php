@@ -1,6 +1,6 @@
 {
     "name": "mage2pro/klarna-sdk-v3",
-    "version": "v2.2.1",
+    "version": "v2.2.2",
     "description": "Klarna Checkout PHP SDK",
     "homepage": "http://developers.klarna.com",
     "license": "Apache-2.0",
@@ -19,7 +19,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
-        "guzzlehttp/guzzle": ">=4.2"
+        "guzzlehttp/guzzle": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "4.2.*",
