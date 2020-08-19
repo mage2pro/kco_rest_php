@@ -80,7 +80,7 @@ class Order extends Resource
     {
         parent::fetch();
 
-        // Convert captures data to Capture[]
+        # Convert captures data to Capture[]
 
         $captures = [];
         foreach ($this['captures'] as $capture) {

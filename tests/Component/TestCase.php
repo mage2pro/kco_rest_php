@@ -67,7 +67,7 @@ class TestCase extends \PHPUnit_Framework_TestCase
         $this->mock = new Mock();
         $this->history = new History();
 
-        // Add the mock subscriber to the client.
+        # Add the mock subscriber to the client.
         $this->client->getEmitter()->attach($this->mock);
         $this->client->getEmitter()->attach($this->history);
 

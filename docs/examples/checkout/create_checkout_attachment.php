@@ -75,5 +75,5 @@ $checkout->create([
 
 $checkout->fetch();
 
-// Store checkout order id
+# Store checkout order id
 $orderId = $checkout->getId();
